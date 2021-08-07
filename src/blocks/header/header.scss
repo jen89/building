@@ -1,0 +1,55 @@
+.header {
+	$self: &;
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 59px 0 58px;
+		font-family: "SUSB", sans-serif;
+		@media (max-width:960px) {
+			padding: 29px 0 28px;
+			
+		}
+	}
+
+	&__slider {
+		background: #fff;
+	}
+
+	&__slider-items {
+		margin: 0 auto;
+		max-width: 1920px;
+	}
+	&__slider-item {
+		background: top center/cover no-repeat transparent;
+		min-height: 728px;
+		@media (max-width:960px) {
+			min-height: 428px;
+		}
+		
+	}
+
+}
+.slick-dots {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+	button {
+		border: 0;
+		font-size: 0;
+		width: 10px;
+		height: 11px;
+		border-radius: 50%;
+		background-color: #fff;
+		margin: 9px;
+		outline: none;
+		
+	}
+}
+

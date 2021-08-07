@@ -1,0 +1,75 @@
+.footer {
+	$self: &;
+	padding-top: 96px;
+	@media (max-width:760px) {
+		padding-top: 46px;
+		
+	}
+
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap-reverse;
+		@media (max-width:760px) {
+			justify-content: flex-start;
+		}
+	}
+	
+	&__menu {
+		@media (max-width:960px) {
+			width: 100%;
+			margin-top: 30px;
+		}
+	}
+	
+	&__menu-title {
+		font-size: 24px;
+		line-height: 41px;
+		font-family: 'SUB', sans-serif;
+		margin-bottom: 30px;
+		color: $gray;
+	}
+	
+	&__menu-link {
+		display: block;
+		font-size: 24px;
+		line-height: 36px;
+	}
+	
+	&__menu-soc {
+		margin-top: 35px;
+	}
+	
+	&__soc-link {
+		margin-right: 15px;
+	}
+	
+	&__images {
+		width: 245px;
+		height: 241px;
+		padding-left: 9px;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(108px, 1fr));
+		grid-row-gap: 23px;
+		grid-column-gap: 27px;	
+	}
+	
+	&__img {
+		width: 108px;
+		height: 108px;
+	}
+	
+	&__copy {
+		margin-top: 96px;
+		padding: 10px 0;
+		background-color: #E1E1E1;
+		text-align: center;
+		color: #fff;
+		@media (max-width:760px) {
+			margin-top: 46px;
+			
+		}
+	}
+	
+}

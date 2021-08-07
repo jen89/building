@@ -1,0 +1,12 @@
+.logo {
+	$self: &;
+	 padding: 0 40px;
+	 @media (max-width:960px) {
+		padding: 0;
+		order: -1;
+	}
+	&__link {
+		width: 42px;
+		height: 40px;
+	}
+}

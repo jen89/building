@@ -1,0 +1,17 @@
+.about {
+	$self: &;
+	background-color: #fff;
+	padding: 124px 0 144px;
+	@media (max-width: 780px) {
+		padding: 54px 0 74px;
+	}
+
+	&__img {
+		width: 104px;
+		height: 97px;
+		float: left;
+		padding: 10px 25px 10px 10px;
+		}
+	
+
+}
